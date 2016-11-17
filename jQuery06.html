@@ -10,11 +10,22 @@
             crossorigin="anonymous">
     </script>
     <script src="js/jQuery06.js"></script>
+    <style>
+        .inStyle {
+            color : red;
+            background-color : yellow;
+        }
+        .outStyle {
+            color : blue;
+            background-color : gray;
+        }
+
+    </style>
 </head>
 <body>
     <ul>
-        <li>서울</li>
-        <li>광주</li>
+        <li onmouseover="inStyle()" onmouseleave="outStyle()">서울</li>
+        <li class = "inStyle">광주</li>
         <li>인천</li>
         <li>부산</li>
     </ul>
