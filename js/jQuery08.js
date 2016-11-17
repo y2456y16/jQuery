@@ -15,4 +15,5 @@ function myFunc() {
     $("div > h1:nth-child(2)").before(img);
     //4.형제로 뒤에 붙이기
     //$("div > h1:first").after(h1);
+    //yes
 }
